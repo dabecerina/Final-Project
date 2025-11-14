@@ -6,7 +6,7 @@ body {
   padding: 20px;
   height: 40px;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 25px;
   background-color: rgb(210, 119, 0);
 }
 
@@ -109,15 +109,17 @@ h1 {
   padding: 10px 20px;
   margin: 0%;
   margin-top: 40px;
+
 }
 
 .note {
   margin: 0;
   font-size: 80px;
-  color: #6c2d00;
   margin-top: 50px;
   margin-left: 50px;
   flex-wrap: wrap;
+   color: #6c2d00;
+
 }
 
 .notes {
