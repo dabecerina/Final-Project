@@ -8,7 +8,19 @@ body {
   font-weight: bold;
   font-size: 25px;
   background-color: rgb(210, 119, 0);
-}
+ animation: slideDown 2s ease-in-out;
+        }
+
+        @keyframes slideDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
 
 .links a {
   color: rgb(255, 255, 255);
@@ -111,8 +123,19 @@ h1 {
   margin:auto;
   margin-top:60px;
   padding: 0 2rem 4rem;
+ animation: fadeInContent 1.5s ease-in-out;
+        }
 
-}
+        @keyframes fadeInContent {
+            0% {
+                opacity: 0;
+                transform: translateY(50px) scale(0.9);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
 .product-card {
   background-color: rgb(234, 221, 202);
   border: 2px solid #d8c4b0;
@@ -158,7 +181,19 @@ h1 {
   font-size: 60px;
   margin: 40px;
    color: #6c2d00;
-  
+ animation: slideInLeft 2s ease-in-out;
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 .FRUITS{
   font-style: bold;
@@ -171,7 +206,19 @@ h1 {
   margin: auto;
   padding: 0 2rem 4rem;
   margin-top: 50px;
-}
+ animation: fadeInContent 1.5s ease-in-out;
+        }
+
+        @keyframes fadeInContent {
+            0% {
+                opacity: 0;
+                transform: translateY(50px) scale(0.9);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
 .dried{
  background-color: rgb(234, 221, 202);
   border: 2px solid #d8c4b0;
@@ -195,7 +242,17 @@ h1 {
   display: block;
   background-color: beige;
   text-align: center;
-  
+  animation: fadeInText 3s ease-in-out;
+}
+
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 footer {
   background: linear-gradient(135deg, #2c1810 0%, #1a0f0a 100%);
