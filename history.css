@@ -212,7 +212,153 @@ h1 {
   font-weight: bold;
   color: #5d3a1a;
 }
+  .timeline-highlights {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 30px;
+     margin: 60px 0;
+ }
 
+ .timeline-card {
+     background: white;
+     padding: 35px;
+     border-radius: 15px;
+     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+     position: relative;
+     overflow: hidden;
+ }
+
+ .timeline-card:hover {
+     transform: translateY(-10px);
+     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+ }
+
+ .timeline-year {
+     font-size: 42px;
+     font-weight: bold;
+     color: #d97634;
+     margin-bottom: 15px;
+ }
+
+ .timeline-icon {
+     font-size: 48px;
+     margin-bottom: 15px;
+ }
+ .timeline-icon img{
+    width: 100px;
+    height: 100px;
+ }
+
+ .timeline-title {
+     font-size: 20px;
+     font-weight: bold;
+     color: #5d3a1a;
+     margin-bottom: 12px;
+ }
+
+ .timeline-desc {
+     font-size: 15px;
+     line-height: 1.7;
+     color: #6d5446;
+ }
+
+ .timeline-card-image {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     opacity: 0;
+     transition: opacity 0.5s ease;
+ }
+
+ .timeline-card:hover .timeline-card-image {
+     opacity: 0.95;
+ }
+
+ .timeline-card-image img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ 
+        .quote-section {
+            background: linear-gradient(#9b6532, #5d3a1a 0%, #3d2614 100%);
+            padding: 80px 60px;
+            margin: 80px;
+            border-radius: 20px;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+        .quote-section::before {
+            position: absolute;
+            font-size: 300px;
+            opacity: 0.1;
+            top: -50px;
+            left: 50px;
+            font-family: Georgia, serif;
+        }
+
+        .quote-text {
+            font-size: 32px;
+            font-style: italic;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .quote-author {
+            font-size: 20px;
+            color: #f5c98a;
+            font-weight: bold;
+        }
+
+        .cta-section {
+            text-align: center;
+            padding: 60px 40px;
+            background: white;
+            border-radius: 20px;
+            margin: 40px 0 80px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .cta-title {
+            font-size: 42px;
+            color: #5d3a1a;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .cta-text {
+            font-size: 20px;
+            color: #000000;
+            margin-bottom: 35px;
+            line-height: 1.7;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(#ff9c59, #d97634, #c96428);
+            color: white;
+            padding: 18px 50px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 25px rgba(217, 118, 52, 0.4);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 10px 15px 40px rgba(217, 118, 52, 0.6);
+        }
 footer {
   background: linear-gradient(135deg, #2c1810 0%, #1a0f0a 100%);
   color: #d4a574;
