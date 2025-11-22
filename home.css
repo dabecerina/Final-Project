@@ -190,8 +190,18 @@ animation: fadeInContent .5s ease-in-out;
   margin-bottom: 40px;
   position: relative;
   padding-bottom: 15px;
+ animation: fadeInText 1s ease-in-out;
 }
 
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
 .section-title::after {
   content: '';
   position: absolute;
