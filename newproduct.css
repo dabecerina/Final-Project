@@ -8,7 +8,19 @@ body {
   font-weight: bold;
   font-size: 25px;
   background-color: rgb(210, 119, 0);
-}
+ animation: slideDown .5s ease-in-out;
+        }
+
+        @keyframes slideDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
 
 .links a {
   color: rgb(255, 255, 255);
@@ -108,6 +120,19 @@ h1 {
   font-size: 60px;
   margin: 40px;
    color: #6c2d00;
+animation: slideInLeft .5s ease-in-out;
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 .wrapped {
   display: grid;
@@ -116,7 +141,19 @@ h1 {
   max-width: 1200px;
   margin: auto;
   padding: 0 2rem 4rem;
-}
+ animation: fadeInContent .5s ease-in-out;
+        }
+
+        @keyframes fadeInContent {
+            0% {
+                opacity: 0;
+                transform: translateY(50px) scale(0.9);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
 
 .card{
   background-color: rgb(234, 221, 202);
@@ -140,6 +177,17 @@ h1 {
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 1rem;
+animation: fadeInText 1s ease-in-out;
+}
+
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 
@@ -151,7 +199,19 @@ h1 {
   margin-bottom: 10px;
   font-size: x-large;
   font-style: oblique;
+ animation: fadeInText 1s ease-in-out;
 }
+
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 footer {
   background: linear-gradient(135deg, #2c1810 0%, #1a0f0a 100%);
   color: #d4a574;

@@ -1,18 +1,5 @@
 body {
   background-color: #fcba75;
-  animation: fadeInSlow 2s ease-in-out;
-}
-
-@keyframes fadeInSlow {
-  0% {
-    opacity: 0;
-    transform: translateY(30px) scale(0.95);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
 }
 
 .links {
@@ -21,7 +8,7 @@ body {
   font-weight: bold;
   font-size: 25px;
   background-color: rgb(210, 119, 0);
-  animation: slideDown 2s ease-in-out;
+  animation: slideDown .5s ease-in-out;
 }
 
 @keyframes slideDown {
@@ -135,8 +122,19 @@ h1 {
   padding: 10px 20px;
   margin: 0%;
   margin-top: 20px;
+animation: fadeInContent .5s ease-in-out;
+        }
 
-}
+        @keyframes fadeInContent {
+            0% {
+                opacity: 0;
+                transform: translateY(50px) scale(0.9);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
 
 .note {
   margin: 0;
@@ -145,7 +143,7 @@ h1 {
   margin-left: 50px;
   flex-wrap: wrap;
   color: #6c2d00;
-  animation: slideInLeft 2s ease-in-out;
+  animation: slideInLeft .5s ease-in-out;
 }
 
 @keyframes slideInLeft {
@@ -167,7 +165,7 @@ h1 {
   margin-top: 50px;
   margin-left: 50px;
   flex-wrap: wrap;
-  animation: fadeInText 3s ease-in-out;
+  animation: fadeInText 1s ease-in-out;
 }
 
 @keyframes fadeInText {
