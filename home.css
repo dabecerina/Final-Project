@@ -247,7 +247,7 @@ animation: fadeInContent .5s ease-in-out;
 }
 .testimonial-image:hover {
     content: url(1.jpg);
-    transform: scale(1.05);
+  transform:rotateY(360deg);
 }
 
 .testimonial-content {
