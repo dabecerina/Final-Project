@@ -246,7 +246,19 @@ animation: fadeInContent .5s ease-in-out;
   object-fit: cover;
 }
 .testimonial-image:hover {
-    content: url(1.jpg);
+    content: url(kasoy.jpg);
+  transform:rotateY(360deg);
+}
+.picture:hover{
+  content: url(almond.jpg);
+  transform:rotateY(360deg);
+}
+.image:hover{
+   content: url(almond.jpg);
+  transform:rotateY(360deg);
+}
+.images:hover{
+   content: url(beer\ nuts.jpg);
   transform:rotateY(360deg);
 }
 
