@@ -1,8 +1,6 @@
 body {
   background-color: #fcba75;
-  background-image: url(homepagenuts.png);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+
 }
 
 .links {
@@ -127,19 +125,7 @@ h1 {
   margin: auto;
   margin-top: 60px;
   padding: 0 2rem 4rem;
-  animation: fadeInContent .5s ease-in-out;
-}
 
-@keyframes fadeInContent {
-  0% {
-    opacity: 0;
-    transform: translateY(50px) scale(0.9);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
 }
 
 .product-card {
@@ -164,42 +150,15 @@ h1 {
   margin-bottom: 10px;
   font-size: x-large;
   font-style: oblique;
-  animation: fadeInText 1s ease-in-out;
-}
 
-@keyframes fadeInText {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
 }
 
 .product-card img {
   width: 100%;
-  height: 200px;
+  height: 250px;
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 1rem;
-  animation: fadeInText 1s ease-in-out;
-}
-
-
-@keyframes fadeInText {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.product-card img:hover {
-  transform: scale(1.2);
-  border-radius: 10px;
 }
 
 .details {
@@ -240,26 +199,13 @@ h1 {
 }
 
 .wrapped {
-   display: grid;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   max-width: 1200px;
   margin: auto;
   margin-top: 60px;
   padding: 0 2rem 4rem;
-  animation: fadeInContent .5s ease-in-out;
-}
-
-@keyframes fadeInContent {
-  0% {
-    opacity: 0;
-    transform: translateY(50px) scale(0.9);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
 }
 
 .dried {
@@ -285,17 +231,7 @@ h1 {
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 1rem;
-  animation: fadeInText 1s ease-in-out;
-}
 
-@keyframes fadeInText {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
 }
 
 .dried img:hover {
@@ -307,73 +243,24 @@ h1 {
   display: block;
   background-color: beige;
   text-align: center;
-  animation: fadeInText 1s ease-in-out;
 }
 
-@keyframes fadeInText {
-  0% {
-    opacity: 0;
-  }
+.product-card img:hover, .dried img:hover {
 
-  100% {
-    opacity: 1;
-  }
+    animation: pulse 1s ease-in-out infinite; 
+    }
+
+    @keyframes pulse {
+      from { transform: scale(1); }
+      to   { transform: scale(1.2); }
+    }
+
+.kasoy:hover {
+  content: url(kasoy.jpg);
 }
 
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  margin-top: 50px;
-  animation: fadeInContent .5s ease-in-out;
-}
-
-@keyframes fadeInContent {
-  0% {
-    opacity: 0;
-    transform: translateY(50px) scale(0.9);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-
-.content-grid {
-  background-color: white;
-  padding: 60px 40px;
-  border-radius: 10px;
-   box-shadow: 10px 10px;
-
-}
-
-.content-grids {
-  background-color: white;
-  padding: 60px 40px;
-  border-radius: 10px;
-  margin-bottom: 60px;
-   box-shadow: 10px 10px;
-
-}
-
-.product-section {
-  position: relative;
-  margin-bottom: 60px;
-  padding-bottom: 40px;
-  border-bottom: 2px solid #ddd;
- 
-}
-
-.product-image-left:hover {
-  transform: scale(1.2);
-}
-
-.product-image-right:hover {
-  transform: scale(1.2);
-}
-
-.product-section:last-child {
-  border-bottom: none;
+.alms:hover {
+  content: url(almond.jpg);
 }
 
 .product-image-left {
@@ -383,6 +270,115 @@ h1 {
   width: 200px;
   height: 300px;
 }
+
+.kornik:hover {
+  content: url(kornik.jpg);
+}
+
+.mix:hover {
+  content: url(mixnuts.jpg);
+}
+
+.peanutb:hover {
+  content: url(peanutbrittle.jpg);
+}
+
+.kc:hover {
+  content: url(kc.jpg);
+}
+.beern:hover{
+  content: url(beer\ nuts.jpg);
+}
+
+.mango:hover{
+  content: url(mango.png);
+}
+.orange:hover{
+  content: url(orange.jpg);
+}
+.pine:hover{
+content: url(pinya.jpg);
+}
+.banana:hover{
+  content: url(banana.jpg);
+}
+.apricot:hover{
+  content: url(apricot.jpg);
+}
+.Kiwi:hover{
+  content: url(kiwi.jpg);
+}
+.grapes:hover{
+  content: url(grapes.jpg);
+}
+.Strawberry:hover{
+  content: url(strawberry.jpg);
+}
+.apple:hover{
+  content: url(apple.jpg);
+}
+.carrots:hover{
+  content: url(carrots.jpg);
+}
+.spotatoes:hover{
+  content: url(sweetpotatoes.jpg);
+}
+.pumpkin:hover{
+  content: url(pumpkin.jpg);
+}
+.okra:hover{
+  content: url(okra.jpg);
+}
+.greenbeans:hover{
+  content: url(greenbeans.jpg);
+}
+.zucchini:hover{
+  content: url(zuchinni.jpg);
+}
+.mixveg:hover{
+  content: url(mixveg.jpg);
+}
+.pumpkins:hover{
+  content: url(pumpkinseed.jpg);
+}
+.sunflowers:hover{
+  content: url(sunflowerseeds.jpg);
+}
+
+
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 50px;
+
+}
+
+.content-grid {
+  background-color: white;
+  padding: 60px 40px;
+  border-radius: 10px;
+  box-shadow: 10px 10px;
+
+}
+
+.content-grids {
+  background-color: white;
+  padding: 60px 40px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+  box-shadow: 10px 10px;
+
+}
+
+.product-section {
+  position: relative;
+  margin-bottom: 60px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #ddd;
+
+}
+
 
 .product-image-right {
   position: absolute;
