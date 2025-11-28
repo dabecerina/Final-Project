@@ -182,15 +182,13 @@ justify-content: center;
    border-radius: 10px;
 }
 .card img:hover{
-   transform:rotateY(360deg);
-    animation: spinY 2s linear infinite; 
-}
-
-    @keyframes spinY {
-      from { transform: rotateY(0deg); }
-      to   { transform: rotateY(360deg); }
+   animation: pulse .5s ease-in-out; 
     }
 
+    @keyframes pulse {
+      from { transform: scale(1); }
+      to   { transform: scale(1.2); }
+    }
 
 .mango:hover {
    content: url(mango.png);

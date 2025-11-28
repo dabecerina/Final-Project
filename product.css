@@ -141,10 +141,7 @@ h1 {
 
 }
 
-.product-card:hover {
-  transform: scale(1.02);
 
-}
 
 .label {
   margin-bottom: 10px;
@@ -220,21 +217,17 @@ h1 {
   box-shadow: 10px 10px;
 }
 
-.dried:hover {
-  transform: scale(1.02);
-}
-
 .dried img {
 
   width: 100%;
-  height: 200px;
+  height: 250px;
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 1rem;
 
 }
 
-.dried img:hover {
+.dried img, .product-card img, .product-section img:hover {
   transform: scale(1.2);
   border-radius: 10px;
 }
@@ -245,9 +238,9 @@ h1 {
   text-align: center;
 }
 
-.product-card img:hover, .dried img:hover {
+.product-card img:hover, .dried img:hover, .product-section img:hover {
 
-    animation: pulse 1s ease-in-out infinite; 
+    animation: pulse .5s ease-in-out; 
     }
 
     @keyframes pulse {
@@ -392,6 +385,7 @@ content: url(pinya.jpg);
 .product-image-right img {
   width: 100%;
   height: 100%;
+ 
 }
 
 .product-name {
@@ -456,10 +450,8 @@ content: url(pinya.jpg);
 .grid-item {
   aspect-ratio: 1 / 1;
   overflow: hidden;
-  background-color: rgb(234, 221, 202);
-  border: 2px solid #d8c4b0;
   border-radius: 30px;
-  box-shadow: 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 0 0 0;
   display: flex;
 }
 
