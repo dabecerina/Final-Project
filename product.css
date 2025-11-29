@@ -351,17 +351,16 @@ content: url(pinya.jpg);
   background-color: white;
   padding: 60px 40px;
   border-radius: 10px;
-  box-shadow: 10px 10px;
-
+   border-right: 10px solid #2c1200;
 }
 
 .content-grids {
   background-color: white;
   padding: 60px 40px;
   border-radius: 10px;
-  margin-bottom: 60px;
-  box-shadow: 10px 10px;
-
+ border-right: 10px solid #2c1200;
+   border-bottom: 10px solid #2c1200;
+     margin-bottom: 60px;
 }
 
 .product-section {

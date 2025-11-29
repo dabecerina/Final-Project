@@ -174,34 +174,25 @@ justify-content: center;
 
 
 
-.mango, .orange, .pine {
+.card img {
   width: 400px;
-  height: 250px;
+  height: 300px;
   object-fit: cover;
   transform: scale(1.02);
    border-radius: 10px;
 }
 .card img:hover{
-   animation: pulse .5s ease-in-out; 
+ 
+    animation: pulse .5s ease-in-out; 
     }
 
     @keyframes pulse {
       from { transform: scale(1); }
       to   { transform: scale(1.2); }
     }
-
-.mango:hover {
-   content: url(mango.png);
-   
- 
+.card img:hover{
+  transform: scale(1.2);
 }
-.orange:hover{
-  content: url(orange.jpg);
-}
-.pine:hover{
-content: url(pinya.jpg);
-}
-
 
 .products {
   font-size: 1.1rem;
