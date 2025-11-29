@@ -266,7 +266,7 @@ animation: fadeInContent .5s ease-in-out;
   transform:rotateY(360deg);
 }
 .images:hover{
-   content: url(beer\ nuts.jpg);
+   content: url(bernuts.webp);
   transform:rotateY(360deg);
 }
 
@@ -293,7 +293,7 @@ footer {
   background: linear-gradient(135deg, #2c1810 0%, #1a0f0a 100%);
   color: #d4a574;
   padding: 60px 50px 20px;
-  margin-top: 40px;
+ margin-top: 100px;
 }
 
 .footer-content {
