@@ -8,7 +8,21 @@ body {
   font-weight: bold;
   font-size: 25px;
   background-color: rgb(210, 119, 0);
+animation: slideDown .5s ease-in-out;
 }
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 .links a {
   color: rgb(255, 255, 255);
@@ -119,13 +133,35 @@ h1 {
   font-size: 60px;
   margin: 40px;
   color: #6c2d00;
+  animation: slideInLeft .5s ease-in-out;
+}
 
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .page-subtitle {
   font-size: 28px;
   color: #000000;
+ animation: fadeInText 1s ease-in-out;
+}
 
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .overview-section {
@@ -135,6 +171,19 @@ h1 {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
   border-right: 8px solid #471e00;
   border-bottom: 8px solid #471e00;
+  animation: fadeInContent .5s ease-in-out;
+}
+
+@keyframes fadeInContent {
+  0% {
+    opacity: 0;
+    transform: translateY(50px) scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 .section-title {
@@ -164,6 +213,7 @@ h1 {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
   border-right: 8px solid #471e00;
   border-bottom: 8px solid #471e00;
+  animation: fadeInContent .5s ease-in-out;
 }
 
 
@@ -176,6 +226,7 @@ h1 {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
   border-right: 8px solid #471e00;
   border-bottom: 8px solid #471e00;
+  animation: fadeInContent .5s ease-in-out;
 }
 
 .contact-grid {
@@ -538,14 +589,11 @@ table td {
 }
 
 
-
-
-
 footer {
   background: linear-gradient(135deg, #2c1810 0%, #1a0f0a 100%);
   color: #d4a574;
   padding: 60px 50px 20px;
-   margin-top: 100px;
+  margin-top: 100px;
 }
 
 .footer-content {

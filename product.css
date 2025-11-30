@@ -125,7 +125,19 @@ h1 {
   margin: auto;
   margin-top: 60px;
   padding: 0 2rem 4rem;
+  animation: fadeInContent .5s ease-in-out;
+}
 
+@keyframes fadeInContent {
+  0% {
+    opacity: 0;
+    transform: translateY(50px) scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 .product-card {
@@ -215,6 +227,19 @@ h1 {
   flex-direction: column;
   align-items: center;
   box-shadow: 10px 10px;
+  animation: fadeInContent .5s ease-in-out;
+}
+
+@keyframes fadeInContent {
+  0% {
+    opacity: 0;
+    transform: translateY(50px) scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 .dried img {
@@ -238,6 +263,17 @@ h1 {
   display: block;
   background-color: beige;
   text-align: center;
+  animation: fadeInText 1s ease-in-out;
+}
+
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .product-card img:hover,
@@ -379,20 +415,11 @@ h1 {
   padding: 60px 40px;
   border-radius: 10px;
   border-right: 10px solid #2c1200;
-}
-
-.content-grids {
-  background-color: white;
-  padding: 60px 40px;
-  border-radius: 10px;
-  border-right: 10px solid #2c1200;
-  border-bottom: 10px solid #2c1200;
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .product-section {
   position: relative;
-  margin-bottom: 60px;
   padding-bottom: 40px;
   border-bottom: 2px solid #ddd;
 
