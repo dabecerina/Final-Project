@@ -358,17 +358,7 @@ table th {
   font-weight: bold;
 }
 
-table th:first-child {
-  border-radius: 10px 0 0 0;
-}
 
-table th:last-child {
-  border-radius: 0 10px 0 0;
-}
-
-table tr:nth-child(even) {
-  background: #f9f9f9;
-}
 
 table tr:hover {
   background: #ff8800;
