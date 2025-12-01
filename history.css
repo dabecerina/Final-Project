@@ -221,8 +221,8 @@ animation: fadeInContent .5s ease-in-out;
 }
 
 .team-caption {
-  background: rgba(93, 58, 26, 0.9);
-  color: white;
+  background:  white;
+  color:rgba(93, 58, 26, 0.9);
   padding: 20px;
   text-align: center;
   font-size: 24px;
