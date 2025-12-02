@@ -1,3 +1,23 @@
+@media screen and (max-width: 767px) {
+  /* Apply specific styles for smaller screens */
+  body {
+    font-size: 14px;
+  }
+  .container {
+    width: 95%;
+  }
+}
+
+/* Styles for screens larger than 768px */
+@media screen and (min-width: 768px) {
+  /* Apply specific styles for larger screens */
+  body {
+    font-size: 16px;
+  }
+  .container {
+    width: 80%;
+  }
+}
 body {
   background-color: #fcba75;
 }
