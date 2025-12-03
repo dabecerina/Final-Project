@@ -367,3 +367,114 @@ p img {
   width: 40px;
   height: 40px;
 }
+@media screen and (max-width: 768px) {
+  header {
+    height: auto;
+    flex-direction: column; 
+    padding: 15px 10px;
+  }
+
+  .logo {
+    height: 80px;
+    margin: 0 0 10px 0;
+  }
+
+  h1 {
+    font-size: 28px;
+    text-align: center;
+    margin: 0 0 15px 0;
+  }
+
+  .text-box {
+    margin: 10px auto;
+    width: 90%;
+  }
+
+  .photo, .photos {
+    margin: 10px auto;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .tagline {
+    margin: 15px 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .links {
+    height: auto;
+    flex-direction: column; 
+    padding: 10px;
+  }
+
+  .links a {
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+
+  .title {
+    font-size: 36px;
+    margin: 20px 10px;
+  }
+
+  .wrapped {
+    grid-template-columns: 1fr; 
+    gap: 30px;
+    padding: 0 15px 40px;
+    margin-top: 30px;
+  }
+
+  
+  .card {
+    box-shadow: 5px 5px; 
+  }
+  
+  .card:hover {
+    transform: none; 
+  }
+
+  .card img {
+    width: 100%; 
+    height: auto;
+    max-height: 250px;
+    transform: none;
+  }
+
+  .card img:hover {
+    transform: none; 
+    animation: none;
+  }
+
+  .label {
+    font-size: 1.3rem;
+  }
+
+
+  footer {
+    padding: 40px 20px;
+    margin-top: 50px;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-section p, .social-links {
+    justify-content: center; 
+  }
+
+  .footer-section ul {
+    text-align: center;
+  }
+
+  .footer-section ul li a:hover {
+    padding-left: 0; 
+  }
+}

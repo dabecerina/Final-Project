@@ -390,3 +390,148 @@ p img {
   width: 40px;
   height: 40px;
 }
+
+
+@media screen and (max-width: 768px) {
+
+
+  .links {
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    gap: 5px;
+  }
+
+  .links a {
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; 
+  }
+
+ 
+  header {
+    height: auto;
+    flex-direction: column; 
+    padding: 20px 10px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .logo {
+    height: 100px;
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-right: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .text-box {
+    margin: 10px auto; 
+    width: 90%;
+    justify-content: center;
+  }
+
+  .photo {
+    margin-top: 20px;
+    margin-left: 0;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .photos {
+    width: 80%;
+    max-width: 250px;
+    margin-top: 10px;
+  }
+
+  .tagline {
+    margin: 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  
+  .nuts {
+    flex-direction: column; 
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .nut {
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  
+  .note {
+    font-size: 32px; 
+    margin-top: 30px; 
+    margin-left: 0;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .notes {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 0 20px;
+    text-align: center; 
+    line-height: 1.5;
+  }
+
+  
+  .testimonials-container {
+    padding: 0 20px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-left: 0;
+    text-align: center; 
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr; 
+    gap: 25px;
+  }
+
+  .testimonial-image,
+  .picture,
+  .image,
+  .images {
+    height: 200px; 
+  }
+
+  
+  footer {
+    padding: 40px 20px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-section p {
+    justify-content: center; 
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}

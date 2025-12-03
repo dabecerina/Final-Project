@@ -623,3 +623,169 @@ p img {
   width: 40px;
   height: 40px;
 }
+
+@media screen and (max-width: 768px) {
+
+  .links {
+    height: auto;
+    flex-direction: column; 
+    padding: 15px;
+    align-items: center;
+  }
+
+  .links a {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  header {
+    height: auto;
+    flex-direction: column; 
+    padding: 20px 10px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .logo {
+    height: 100px;
+    width: auto;
+    margin: 0 0 15px 0;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin: 0 0 15px 0;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .text-box {
+    margin: 10px auto;
+    width: 90%;
+    justify-content: center;
+  }
+
+  .photo {
+    margin-top: 20px;
+    margin-left: 0;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .photos {
+    width: 80%;
+    max-width: 250px;
+    margin-top: 10px;
+  }
+
+  .tagline {
+    margin: 20px 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .product-grid, 
+  .wrapped {
+    grid-template-columns: 1fr; 
+    gap: 30px;
+    padding: 0 20px 40px;
+    margin-top: 30px;
+  }
+
+  .title {
+    font-size: 36px;
+    margin: 30px 10px;
+  }
+
+  .product-card, 
+  .dried {
+    width: auto;
+    padding: 20px;
+  }
+
+  .details p {
+    font-size: 18px;
+  }
+
+  .container {
+    margin-top: 20px;
+    padding: 0 15px;
+  }
+
+  .content-grid {
+    padding: 30px 20px;
+    border-right: none;
+    border-bottom: 10px solid #2c1200;
+  }
+
+  .product-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .product-image-left,
+  .product-image-right {
+    position: static; 
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .product-image-left img,
+  .product-image-right img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .name, 
+  .description, 
+  .price,
+  .product-name,
+  .product-description,
+  .product-price {
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .product-name, .name {
+    font-size: 24px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  .grid-item {
+    box-shadow: 5px 5px 0 0; 
+  }
+
+  footer {
+    padding: 40px 20px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .footer-section p {
+    justify-content: center;
+  }
+  
+  .social-links {
+    justify-content: center;
+  }
+}

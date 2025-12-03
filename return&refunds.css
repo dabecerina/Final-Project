@@ -477,3 +477,221 @@ p img {
   width: 40px;
   height: 40px;
 }
+
+@media screen and (max-width: 768px) {
+
+  .links {
+    font-size: 18px;
+    height: auto;
+    padding: 15px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .links a {
+    font-size: 20px;
+    padding: 8px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  header {
+    height: auto;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .logo {
+    height: 80px;
+    margin-right: 0; 
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-right: 0;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .text-box {
+    margin: 10px auto;
+    width: 90%;
+    max-width: 300px;
+  }
+  
+  .text-box input {
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .photo {
+    margin-top: 20px;
+    margin-left: 0;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .photos {
+    width: 200px;
+    margin-top: 20px;
+  }
+  
+  .tagline {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .policy-card {
+    padding: 30px 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .main-title {
+    font-size: 40px;
+    margin: 30px 0 15px;
+  }
+
+  .dates {
+    font-size: 16px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+  }
+
+  .highlight {
+    padding: 20px;
+  }
+
+  .highlight p {
+    font-size: 14px;
+  }
+
+  .table-of-contents {
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+
+  .table-of-contents h3 {
+    font-size: 20px;
+  }
+
+  .table-of-contents ol {
+    font-size: 16px;
+  }
+
+  .table-of-contents li {
+    margin: 10px 0;
+    padding-left: 30px;
+  }
+
+  .section {
+    margin: 30px 0;
+  }
+
+  .section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .section p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .section strong {
+    font-size: 18px;
+  }
+
+  .section ul, .section ol {
+    margin-left: 15px;
+    font-size: 16px;
+  }
+  
+  .section ul li, .section ol li {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .subsection {
+    margin: 20px 0;
+  }
+
+  .subsection h3 {
+    font-size: 16px;
+  }
+
+  .info-box, .warning-box {
+    padding: 15px;
+    margin: 15px 0;
+  }
+
+  .info-box p, .warning-box p {
+    font-size: 16px;
+  }
+
+  .contact-info {
+    margin-top: 5px;
+  }
+
+  .contact-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .contact-info ul li {
+    font-size: 16px;
+  }
+  
+  .divider {
+    margin: 30px 0;
+  }
+
+  footer {
+    padding: 40px 20px 20px;
+    margin-top: 50px;
+  }
+  
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .footer-section a {
+    font-size: 18px;
+  }
+  
+  .footer-section ul {
+    font-size: 14px;
+    padding-left: 0;
+  }
+
+  .footer-section ul li a {
+    padding-left: 0;
+    display: block;
+  }
+  
+  .footer-section ul li a:hover {
+    padding-left: 0;
+  }
+
+  .footer-section p {
+    justify-content: center;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}
